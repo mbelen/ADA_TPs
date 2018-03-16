@@ -1,0 +1,49 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	font-family:"Open Sans";
+}
+
+#container {
+	position:relative;
+	text-align:center;
+	overflow-x: auto;
+}
+
+main {
+	height:440px;
+	width:1480px;
+	margin:30px auto;
+	background-image: url("../img/banner.jpg");
+	background-size:cover;
+}
+
+form label {
+	padding:10px;
+}
+
+form button {
+	font-family:"Open Sans";
+	font-size:.8em;
+	padding:2px;
+}
+
+#social {
+	float:right;
+	margin-top:1em;
+	margin-right:2em;
+}
+
+#social a {
+	font-size: 36px;
+	color:#f980ba;
+}
+
+footer {
+	margin-top:10em;
+	text-align: center;
+	color:#f980ba;
+}
